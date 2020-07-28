@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+ */
+
+.Navbar{
+    background-color: #14970f;
+}
+.Navbar ul{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    list-style-type: none;
+}
+.MenuItem{
+   
+}
+.MenuItem a{
+  color: #fff;
+  display: block;
+  padding: 10px 15px;
+  font-size: 1.5em;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+}
+.MenuItem a:hover{
+    color: blue;
 }
